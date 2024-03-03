@@ -1,0 +1,203 @@
+* {
+    margin: 0px; padding: 0px;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body::-webkit-scrollbar {display: none;}
+
+.upbtn {
+    top: 90%; left: 96%; width: 45px; height: 45px;
+    border-radius: 80%; background-color: #ffffff;
+    border: black 3px solid;
+    position: fixed; z-index: 2;
+    cursor:pointer;
+}
+header {
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+header .inner {
+    width: 1500px; height: 150px;
+    margin: 20px auto 0 ;
+    position: relative;
+}
+header .inner .left {
+    width: 70px;
+    margin: 0 auto;
+}
+header .inner .left img {
+    width: 70px; height: 67px;
+}
+header .inner .downmenu {
+    margin: 20px auto;
+    width: 740px;
+}
+header .inner .downmenu li {
+    float: left;
+    margin: 18px;
+    font-weight: 600;
+}
+header .inner .downmenu li a {
+    color: black;
+}
+header .inner .downmenu li a:hover {
+    border-bottom: 3px solid black;
+}
+
+header .inner .right {
+    position: absolute;
+    right: 0px; top: 15px;
+    width: 300px;
+}
+header .inner .right li {
+    float: left;
+    margin: 5px;
+}
+header .inner .right .topmenu {
+    width: 400px;
+    font-size: 13px;
+}
+header .inner .right .topmenu a:hover {color: gray;}
+header .inner .right .search input {
+    text-align: center;
+    font-weight: 600;
+    width: 160px;
+    height: 33px;
+    border-radius: 13px;
+    border: none;
+    background: #f0efef;
+    margin-left: 60px;
+}
+header .inner .right .menu {
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 60px;
+}
+
+
+.main {
+    width: 100%;
+}
+.main .screen {
+    width: 100%; height: 380px;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)), url(img/service.jpg);
+    background-size: cover;
+    margin: 0 auto;
+}
+.main .screen .container {
+    width: 500px; height: 380px;
+    margin: 0 auto;
+    padding: 100px;
+}
+.main .screen .container h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 36px;
+    width: 150px;
+    margin: 0px auto;
+}
+.main .screen .container input {
+    width: 220px; height: 38px;
+    border-radius: 18px;
+    text-align: center;
+    border: none;
+    margin: 20px 30px;
+}
+.main .screen .container ul {
+    width: 300px;
+    margin: 0 auto;
+}
+.main .screen .container li {
+    float: left;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 8px; margin: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.main .service {
+    width: 100%;
+    height: 460px;
+}
+.main .service .inner {
+    width: 1450px;
+    border-top: 1px solid black;
+    margin: 0 auto;
+}
+.main .service .up {
+    width: 300px;
+    height: 20px;
+    margin: 40px;
+}
+.main .service .up li{
+    float: left;
+    background: rgb(237, 235, 235);
+    border-radius: 15px;
+    padding: 8px; margin: 2px;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.main .service .up li:hover {color: red}
+.main .service .inner .middle{
+    font-weight: 600;
+    cursor: pointer;
+    width: 150px; height: 45px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.main .service .inner .middle li img {
+    width: 18px; height: 24px;
+    margin: 10px 10px 10px 0; 
+}
+.main .service .inner h2 {
+    margin: 10px 0;
+    font-size: 27px;
+}
+li, img {vertical-align: middle;}
+
+.bottom {
+    width: 100%;
+    padding: 55px 148px;
+    border-top: 1px solid black;
+    background-color: rgb(246, 244, 244);
+    font-size: 10.6px; font-weight: bolder;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+.bottom .area {
+    flex-basis: 100px;
+    flex-shrink: 2;
+    flex-grow: 1;
+}
+.bottom img {
+    margin-top: 20px;
+    width: 29px;
+    height: 29px;
+}
+.bottom ul li {
+    margin: 5px 0;
+}
+.font4 {
+    width: 300px; padding: 5px 0;
+    font-size: 21px; font-weight: bolder;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.font5 {
+    width: 500px;
+    font-size: 11px;
+    margin-bottom: 30px;
+}
